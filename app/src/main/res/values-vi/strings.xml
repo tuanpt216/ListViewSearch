@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ListViewSearch</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="hello_world">Chào thế giới</string>
+    <string name="search_box_hint">Nhập từ khóa...</string>
+</resources>

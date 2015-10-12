@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseThemeLight" parent="Theme.AppCompat.Light.DarkActionBar"></style>
+
+    <style name="BaseThemeDark" parent="Theme.AppCompat.Light.DarkActionBar"></style>
+
+    <style name="AppThemeLight" parent="BaseThemeLight">
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorSecondary">#d3d3d3</item>
+        <item name="android:textColorTertiary">#d3d3d3</item>
+
+        <item name="searchTextColor">@android:color/black</item>
+        <item name="listItemColor">@android:color/black</item>
+        <item name="listBackgroundColor">@android:color/white</item>
+        <item name="searchBackgroundColor">@android:color/white</item>
+    </style>
+
+    <style name="AppThemeTransparent" parent="AppThemeLight">
+        <item name="listItemColor">#f8f8f8</item>
+        <item name="listBackgroundColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppThemeBlueSky" parent="AppThemeLight">
+        <item name="listItemColor">@android:color/white</item>
+        <item name="listBackgroundColor">@android:color/holo_blue_light</item>
+        <item name="searchTextColor">@android:color/white</item>
+        <item name="searchBackgroundColor">@android:color/holo_blue_dark</item>
+    </style>
+</resources>

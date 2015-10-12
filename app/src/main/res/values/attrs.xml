@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="listBackgroundColor" format="reference|color" />
+    <attr name="listItemColor" format="reference|color" />
+    <attr name="searchTextColor" format="reference|color" />
+    <attr name="searchBackgroundColor" format="reference|color" />
+</resources>
